@@ -57,8 +57,10 @@ const ContactComponent = () => {
       <FormControl>
         {success && (
           <motion.h2
+            key={formRef}
             initial={{ opacity: 0 }}
-            animate={{ opacity: 1, transitionEnd: { display: "none" } }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
             transition={{ ease: "easeOut", duration: 1.5 }}
           >
             Thank You...
