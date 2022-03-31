@@ -74,6 +74,7 @@ const ContactComponent = () => {
             onChange={handleChange}
             placeholder="Name"
             name="name"
+            required
           />
           <input
             type="text"
@@ -82,6 +83,7 @@ const ContactComponent = () => {
             onChange={handleChange}
             placeholder="Subject"
             name="subject"
+            required
           />
           <input
             type="email"
@@ -171,6 +173,7 @@ const FormControl = styled.div`
       color: white;
       letter-spacing: 0.2rem;
       font-family: inherit;
+      border: none;
 
       &:focus {
         outline: none;

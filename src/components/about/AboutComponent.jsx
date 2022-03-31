@@ -71,9 +71,11 @@ const AboutContent = styled.div`
   }
 
   h3 {
-    font-size: 4rem;
+    font-size: 3rem;
     color: var(--color-text);
     letter-spacing: 0.2rem;
+    font-weight: lighter;
+    margin-top: 1rem;
 
     @media screen and (max-width: 768px) {
       font-size: 3rem;
@@ -123,6 +125,7 @@ const Hide = styled.div`
 `;
 
 const ButtonHide = styled.div`
+  margin-top: 1rem;
   padding: 3rem 0rem;
   overflow: hidden;
 `;

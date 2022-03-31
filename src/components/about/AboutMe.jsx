@@ -18,18 +18,20 @@ const AboutMe = () => {
       <AboutContent>
         <AboutDescription>
           <p>
-            Hello 👋, I am a Fornt-end Developer with 1 year experience.
-            Completed my graduation in Computer Science and Engineering 2014,
-            After that I decided to prepare for civil examinations, tried my
-            best but it didn't work out for me.
+            Hello 👋, I am a Fornt-end Developer with 1 year experience. Have my
+            graduation in Computer Science and Engineering. Always eager to
+            learn new technologies to hone my skills.
           </p>
           <br></br>
           <p>
-            In 2020, decided to work in tech industry. Started to learn
-            programming and practicing, and then in 2021 worked as java
-            freelance developer at small organization for 1 year. During the
-            process of learning got fascinated with frontend technologies like
-            React js.
+            Good human being 🙂, lazy but also arduous, not loquacious. Like
+            watching TV series and movies.
+          </p>
+          <br></br>
+          <p>
+            I like turning figma design or psd templates into web pages also
+            have interest in animations. In the process of becoming a full stack
+            developer.
           </p>
         </AboutDescription>
         <AboutImage>
@@ -43,7 +45,6 @@ const AboutMe = () => {
 
 const AboutMeSection = styled(motion.div)`
   padding: 5rem 10rem;
-  min-height: 100vh;
 
   @media screen and (max-width: 768px) {
     padding: 5rem 2rem;

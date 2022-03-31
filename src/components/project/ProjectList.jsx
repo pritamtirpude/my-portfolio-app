@@ -4,8 +4,8 @@ import { ProjectCard } from "../../components";
 const ProjectList = ({ projects }) => {
   return (
     <ProjectListStyle>
-      {projects.map((project) => (
-        <ProjectCard project={project} />
+      {projects.map((project, index) => (
+        <ProjectCard key={index} project={project} />
       ))}
     </ProjectListStyle>
   );

@@ -106,10 +106,10 @@ const Navigation = styled.div`
 const LineActive = styled(motion.div)`
   position: absolute;
   top: 3rem;
-  left: 50%;
+  left: 0%;
   width: 0%;
   height: 0.5rem;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
   background: #23d997;
 `;
 export default Navbar;
