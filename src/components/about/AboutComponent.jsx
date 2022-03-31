@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
-import ProfileImage from "../../assets/pic.png";
+import ProfileImage from "../../assets/profile-pic.png";
 import { titleAnim, photoAnim } from "../../animation";
 import ResumeFrontend from "../../assets/Resume.pdf";
 
@@ -104,13 +104,10 @@ const AboutContent = styled.div`
 
 const AboutImage = styled.div`
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 
   img {
     width: 100%;
-    height: 70vh;
+    height: 100%;
     object-fit: cover;
 
     @media screen and (max-width: 768px) {
