@@ -14,11 +14,6 @@ const AboutComponent = () => {
         <Hide>
           <motion.h3 variants={titleAnim}>Frontend Developer</motion.h3>
         </Hide>
-        <Hide>
-          <motion.p variants={titleAnim}>
-            Abiltiy to turn web design into reality.
-          </motion.p>
-        </Hide>
         <ButtonHide>
           <motion.a
             variants={titleAnim}

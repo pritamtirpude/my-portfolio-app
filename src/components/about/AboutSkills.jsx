@@ -82,6 +82,11 @@ const SkillContent = styled(motion.div)`
     width: 10rem;
     height: 10rem;
     object-fit: cover;
+    transition: all 0.5s ease;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 `;
 export default AboutSkills;

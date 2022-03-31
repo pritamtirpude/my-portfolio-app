@@ -122,17 +122,22 @@ const AboutImage = styled(motion.div)`
     width: 30%;
     height: 100%;
     object-fit: cover;
-    position: relative;
+    filter: sepia(100%);
+    transition: all 0.5s ease;
 
     @media screen and (max-width: 768px) {
       width: 50%;
+    }
+
+    &:hover {
+      filter: sepia(0%);
     }
   }
 
   .border-line {
     position: absolute;
-    top: 10%;
-    right: 10%;
+    top: 5%;
+    right: 5%;
     width: 30%;
     height: 100%;
     z-index: -1;
