@@ -24,8 +24,8 @@ const AboutMe = () => {
           </p>
           <br></br>
           <p>
-            Good human being 🙂, lazy but also arduous, not loquacious. Like
-            watching TV series and movies.
+            Good human being 🙂, not loquacious. Like watching TV series and
+            movies.
           </p>
           <br></br>
           <p>
